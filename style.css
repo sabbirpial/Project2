@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 23px;
+    background-image: linear-gradient(to right, #e64d0b, #8c12d7, #1900ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h5 {
+    color: rgba(223, 63, 14, 0.959);
+}
+
+h3 {
+    background-image: linear-gradient( to right, #152400, #79094b, #00d4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100%;
+    font-size: 2rem;
+}
+
+header {
+    margin: 34px;
+}
+
+
+/* section one */
+
+#sec1 {
+    display: flex;
+    background-image: url('./Images/bg1.png');
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 5px gray;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.content {
+    height: 280px;
+    padding: 34px;
+    width: 50%;
+}
+
+button {
+    padding: 6px 30px;
+    background-image: linear-gradient(to right, #12b8d7, #c000ff);
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border: 1px solid white;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #98c1c8, #f0e1f5);
+    cursor: pointer;
+    color: rgb(37, 31, 31);
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.img-height {
+    width: 150px;
+}
+
+
+/* section two */
+
+#sec2 {
+    display: flex;
+    height: 400px;
+    box-shadow: 2px 2px 5px gray;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#sec2 .item4 {
+    background-image: url('/Images/bg2.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#sec4 {
+    display: flex;
+    box-shadow: 2px 2px 5px gray;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+
+/* Section three */
+
+#category {
+    display: flex;
+    height: 260px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+#type1 {
+    border-left: 10px solid;
+    border-image: linear-gradient( #152400, #79094b, #00d4ff);
+    border-image-slice: 1;
+}
+
+#type2 {
+    border-left: 10px solid;
+    border-image: linear-gradient(#ba702a, #9f3f22);
+    border-image-slice: 1;
+}
+
+.box {
+    box-shadow: 4px 4px 10px gray;
+    height: 224px;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+#category-head {
+    margin: 10px;
+    padding: 20px;
+}
+
+footer {
+    background-color: royalblue;
+    padding: 24px;
+    margin: 3px;
+    color: white;
+}

@@ -1,0 +1,45 @@
+#sec1,
+#sec2 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* body {
+    background-color: black;
+} */
+
+img {
+    width: 250px;
+}
+
+.content {
+    margin: 4px;
+    padding: 4px;
+    height: auto;
+}
+
+#sec2 .item4 {
+    background-image: none;
+}
+
+#sec2 {
+    flex-direction: column;
+    height: auto;
+}
+
+#category {
+    flex-direction: column;
+    height: auto;
+}
+
+.box {
+    width: 80%;
+    height: auto;
+}
+
+#sec4 {
+    flex-direction: column-reverse;
+    align-items: center;
+}
