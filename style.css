@@ -90,7 +90,7 @@ img {
 }
 
 #sec2 .item4 {
-    background-image: url('/Images/bg2.png');
+    background-image: url('./Images/bg2.png');
     background-repeat: no-repeat;
     background-position: right;
 }
