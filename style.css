@@ -15,6 +15,7 @@ h1 {
     font-size: 3rem;
     margin-top: 23px;
     background-image: linear-gradient(to right, #e64d0b, #8c12d7, #1900ff);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -25,6 +26,7 @@ h5 {
 
 h3 {
     background-image: linear-gradient( to right, #152400, #79094b, #00d4ff);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 100%;
@@ -160,9 +162,11 @@ footer {
     color: white;
 }
 
+
+/* Overlay effect */
+
 .container {
     position: relative;
-    width: 50%;
 }
 
 .overlay {
@@ -184,18 +188,6 @@ footer {
 
 .container:hover .overlay {
     opacity: 1;
-}
-
-.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
 }
 
 .fa {

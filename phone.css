@@ -17,3 +17,13 @@ h2 {
 footer {
     padding: 7px;
 }
+
+#abid {
+    color: white;
+    font-size: 1rem;
+}
+
+.icon-text {
+    color: white;
+    font-size: .5rem;
+}
